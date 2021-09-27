@@ -10,7 +10,7 @@ http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.write('Hello binary or non binary organisms');
   res.end();
-}).listen(8042);
+});
 const PORT = process.env.PORT || 8042;
 
 // Have the server start listening locally to the port 8042,
